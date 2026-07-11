@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemasters_warputils_langfix",
+  "version": "${version}",
+  "name": "CobbleMasters WarpUtils LangFix",
+  "description": "Fixes WarpUtils raw translation keys caused by libjf resource shadowing.",
+  "authors": [
+    "AnomalyXd69"
+  ],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.cobbleverse.warputilslangfix.WarpUtilsLangFix"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.1",
+    "fabric-api": "*"
+  }
+}
